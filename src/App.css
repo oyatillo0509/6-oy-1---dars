@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header__one {
+  padding: 12px 0px;
+}
+
+.header__one__container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+}
+
+.search {
+  width: 530px;
+  height: 48px;
+  border-radius: 30px;
+  padding-left: 22px;
+  background-color: #f0f1f2;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+#searchText {
+  border: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 30px;
+  appearance: none;
+}
+
+#searchText:focus {
+  border: none;
+}
+
+.earth {
+  width: 167px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+#address1 {
+  height: 20px;
+  border: none;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.locationIcon {
+  padding: 14px;
+  border-radius: 50%;
+  background-color: #e3ebfd;
+  cursor: pointer;
+}
+
+.locationSelect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+}
+
+.locationSelect p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.12px;
+  text-align: left;
+  color: #9a9ea6;
+}
+
+#addresss2 {
+  color: #4475f2;
+  border: none;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.16px;
+  text-align: left;
+}
+
+.header__two {
+  border-top: 1px solid #dfdfe0;
+}
+
+.header__two__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  margin: 24px 0px;
+}
+
+.nav select {
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.64px;
+  text-align: left;
+  color: #9a9ea6;
+  border: none;
+  cursor: pointer;
+}
+
+.accountDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  margin-left: 220px;
+}
+
+.trash {
+  padding: 14px;
+  border-radius: 50%;
+  background-color: #4475f2;
+  cursor: pointer;
+}
+
+.account {
+  padding: 14px;
+  border-radius: 50%;
+  background-color: #e3ebfd;
+  cursor: pointer;
+}
+
+.hero {
+  padding-top: 72px;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero__left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Explore {
+  width: 299px;
+  height: 36px;
+  border-radius: 39px;
+  background-color: #e5edff;
+  color: #4f7df3;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.64px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.hero__h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 76px;
+  font-weight: 800;
+  line-height: 89px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: #181e4b;
+  margin-bottom: 30px;
+}
+
+.hero__h1 span {
+  color: #4f7df3;
+}
+
+.Destinize {
+  width: 60%;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #5e6282;
+  margin-bottom: 34px;
+}
+
+.hero__left > div {
+  display: flex;
+  align-items: center;
+  gap: 41px;
+}
+
+.hero__left > div button:first-child {
+  width: 198px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  background-color: #4475f2;
+  color: white;
+}
+
+.hero__left > div button:last-child {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 164px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.play {
+  width: 50px;
+  height: 50px;
+}
+
+.Putar {
+  transform: translateY(-10px);
+}
+.container_m {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.f_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.foter a {
+  width: 220px;
+  height: 27px;
+  color: #4475f2;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 26.5px;
+  letter-spacing: 0.095em;
+  text-align: left;
+}
+.f_info {
+  margin-top: 13px;
+}
+.f_info h3 {
+  font-family: Manrope;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+.f_img img {
+  width: 279.53px;
+  height: 392.36px;
+}
+
+.f_img {
+  margin-top: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
